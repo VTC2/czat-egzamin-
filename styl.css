@@ -1,0 +1,117 @@
+* {
+    font-family: Garamond;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+header {
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+main {
+    height: 600px;
+}
+
+aside {
+    background-color: coral;
+    height: 680px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+div img {
+    border-radius: 50%;
+    padding: 0 10px;
+}
+
+.oknoczat {
+    border: solid 1px tomato;
+    margin: 15px;
+    height: 470px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.czatwiadomoscJolka, .czatwiadomoscKrzysztof {
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.czatwiadomoscJolka {
+    background-color: #EEE;
+    text-align: left;
+}
+
+.czatwiadomoscJolka img {
+    float: left;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.czatwiadomoscKrzysztof {
+    background-color: #CCC;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.czatwiadomoscKrzysztof img {
+    float: right;
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+button {
+    background-color: tomato;
+    border: solid 1px darkred;
+    padding: 5px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+input {
+    width: 500px;
+}
+
+.input {
+    margin: 10px;
+}
+
+aside img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 5px auto;
+}
