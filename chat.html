@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h2>Chat</h2>
+    </header>
+    <aside>
+        <h3>Chaty</h3>
+        <ul>
+            <li>Ogólny</li>
+            <li>Tematyczne
+        <ol>
+            <li>Turystyczny</li>
+            <li>Żeglarski</li>
+            <li>Filatelistyczny</li>
+            <li>Hodowla zwierzątek domowych</li>
+            </ol>
+            </li>
+            </ul>   
+            <h3>Uczestnicy</h3>
+            <p>Jolanta Nowak</p>
+            <img src="Jolka.jpg" alt="Jolanta Nowak">
+            <p>Krzysztof Łukasiński</p>
+            <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+        </aside>
+        <main>
+            <div class="oknoczat">
+                <div class="czatwiadomosc">
+                    <img src="Jolka.jpg" alt="Jolanta Nowak">
+                    <p>Cześć idziesz jutro do kina?</p>
+                </div>
+            <div class="czatwiadomosc">
+                <img src="krzysiek.jpg" alt="Krzysztof Łukasiński">
+                <p>Tak! a ty?</p>
+            </div>
+            </div>
+            <div class="input">
+                <label for="Wiadomoscinput">Wpisz Wiadomość</label>
+                <input type="text" id="wiadomoscinput" name="wiadomosc">
+                <button onlick="wyslijwiadomosc()">Wyślij</button>
+            </div>
+            <button onlick="generujlosowaodpowiedz()">Generuj losową odpowiedź</button>
+            </main>
+            <footer>
+                <h5>Chat wykonał: 62910307</h5>
+            </footer>
+            <script>
+             // tu skrypcik
+            </script>
+</body>
+</html>
