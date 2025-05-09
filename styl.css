@@ -1,5 +1,6 @@
 * {
     font-family: Garamond;
+    box-sizing: content-box;
 }
 
 body {
@@ -9,7 +10,8 @@ body {
     padding: 0;
 }
 
-header, main {
+header,
+main {
     width: 80%;
 }
 
@@ -57,7 +59,8 @@ div img {
     background-color: white;
 }
 
-.czatwiadomoscJolka, .czatwiadomoscKrzysztof {
+.czatwiadomoscJolka,
+.czatwiadomoscKrzysztof {
     border-radius: 5px;
     width: 90%;
     height: 70px;
