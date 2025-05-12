@@ -10,7 +10,6 @@ let odpowiedzi = [
     "Ja funduję bilety"
 ];
 
-let x = Math.floor(Math.random() * 9);
 
 function wyslijwiadomosc() {
     let creating = document.createElement('div');
@@ -31,6 +30,8 @@ function wyslijwiadomosc() {
 }
 
 function generujlosowaodpowiedz() {
+    let x = Math.floor(Math.random() * 9);
+
     let creating = document.createElement('div');
     creating.classList.add('czatwiadomosc');
 
@@ -46,4 +47,6 @@ function generujlosowaodpowiedz() {
     creating.appendChild(text)
 
     document.querySelector('.oknoczat').appendChild(creating);
+
+    
 }
