@@ -9,10 +9,17 @@ body {
     margin: 0;
     padding: 0;
 }
-
+#wrap{
+    display: flex;
+    flex-direction: row;
+width: 100vw;
+}
+#left{
+    min-width: 80vw;
+}
 header,
 main {
-    width: 80%;
+    width: 80vw;
 }
 
 aside {
