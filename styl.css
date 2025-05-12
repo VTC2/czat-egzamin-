@@ -95,12 +95,15 @@ main {
     margin-bottom: 10px;
 }
 
+input {
+    width: 500px;
+}
+
 .input label {
     white-space: nowrap;
 }
 
 .input input[type="text"] {
-    flex: 1;
     padding: 5px;
     border: 1px solid tomato;
 }
@@ -112,6 +115,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     color: white;
+    width: 200px;
 }
 
 aside {
