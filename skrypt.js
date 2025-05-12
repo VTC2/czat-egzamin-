@@ -35,18 +35,16 @@ function generujlosowaodpowiedz() {
     let creating = document.createElement('div');
     creating.classList.add('czatwiadomosc');
 
-    let image = document.createElement('img');
-    image.src = 'Krzysiek.jpg';
-    image.alt = 'Krzysztof Łukasiński';
-
     let inputValue = odpowiedzi[x]
     let text = document.createElement('p')
     text.textContent = inputValue
+
+    let image = document.createElement('img');
+    image.src = 'Krzysiek.jpg';
+    image.alt = 'Krzysztof Łukasiński';
 
     creating.appendChild(image);
     creating.appendChild(text)
 
     document.querySelector('.oknoczat').appendChild(creating);
-
-    
 }
