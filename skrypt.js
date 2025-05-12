@@ -24,7 +24,7 @@ function wyslijwiadomosc() {
     text.textContent = inputValue
 
     creating.appendChild(image);
-    creating.appendChild(text)
+    creating.appendChild(text);
 
     document.querySelector('.oknoczat').appendChild(creating);
 }
@@ -43,8 +43,8 @@ function generujlosowaodpowiedz() {
     image.src = 'Krzysiek.jpg';
     image.alt = 'Krzysztof Łukasiński';
 
+    creating.appendChild(text);
     creating.appendChild(image);
-    creating.appendChild(text)
-
+    
     document.querySelector('.oknoczat').appendChild(creating);
 }
